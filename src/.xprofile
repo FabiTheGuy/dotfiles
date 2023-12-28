@@ -1,0 +1,4 @@
+xrandr --fb 11760x3840 \
+	--output DP-0 --scale 2x2 --pos 0x0 \
+	--output HDMI-0 --scale 1.5x1.5 --pos 3840x0 --primary \
+	--output DP-3 --scale 2x2 --pos 9600x0 --rotate right

@@ -1,8 +1,11 @@
-# Dotfiles
-This repository contains my personal configurations for i3 and its dependencies. I maintain seperate branches for my tower and laptop setup to accommodate the differences between the two.
+# Dotfiles - Tower
+This is the branch for my Desktop tower setup.
 
-## Branches
-- **Tower:** Configuration files specific to my desktop tower setup.
-    - Branch: `tower`
-- **Laptop:** Configuration files specific to my laptop setup.
-    - Branch: `laptop`
+## Table of Contents
+1. [Configuration Details](#configuration-details)
+    - [Xorg](#xorg)
+## Configuration Details
+
+### Xorg
+* `./src/.XResources` - Font HiDPI/Antialias
+* `./src/.xprofile` - Monitor alignment/scaling
