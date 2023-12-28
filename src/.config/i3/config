@@ -1,0 +1,21 @@
+###########################################
+# Main Config
+###########################################
+
+# Sets the std. mod key
+set $mod Mod4
+
+# Includes the autostart configurations
+include ~/.config/i3/configs/autostart.conf
+
+# Sets Font for Window/i3Bar
+font pango:monospace 8
+font pango:DejaVu Sans Mono 8
+
+# Includes the bindings see ./configs/bindings.conf
+include ~/.config/i3/configs/bindings.conf
+
+# Starts i3bar
+bar {
+        status_command i3status
+}
