@@ -21,6 +21,8 @@ return {
             ensure_installed = {
                 'lua_ls',
                 'clangd',
+                'ts_ls',
+                'tinymist',
             },
             automatic_installation = true
         })
