@@ -44,12 +44,12 @@ return {
             on_attach = on_attach,
         })
 
-        lspconfig['ts_ls'].setup({
+        lspconfig['tinymist'].setup({
             capabilities = capabilities,
             on_attach = on_attach,
         })
 
-        lspconfig['tinymist'].setup({
+        lspconfig['pyright'].setup({
             capabilities = capabilities,
             on_attach = on_attach,
         })

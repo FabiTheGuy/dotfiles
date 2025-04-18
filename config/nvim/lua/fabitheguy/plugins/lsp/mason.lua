@@ -21,8 +21,8 @@ return {
             ensure_installed = {
                 'lua_ls',
                 'clangd',
-                'ts_ls',
                 'tinymist',
+                'pyright',
             },
             automatic_installation = true
         })
