@@ -4,9 +4,13 @@ return {
         'nvim-tree/nvim-web-devicons'
     },
     event = 'VimEnter',
-    config = function()
-        require('dashboard').setup({
-            shortcut_type = 'letter'
-        })
-    end,
+    opts = {
+        theme = 'hyper',
+        config = {
+            week_header = {
+                enable = true,
+            },
+            packages = { enable = false },
+        },
+    },
 }
